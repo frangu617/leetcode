@@ -15,6 +15,19 @@ class Solution:
         # inorder(root)
         # return mid
 
+        # mid = []
+        # def inorder(root):
+        #     stack = []
+        #     while root or stack:
+        #         while root:
+        #             stack.append(root)
+        #             root = root.left
+        #         root = stack.pop()
+        #         mid.append(root.val)
+        #         root = root.right
+        # inorder(root)
+        # return mid
+
         mid = []
         def inorder(root):
             stack = []
